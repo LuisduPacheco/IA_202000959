@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.5.2/math.min.js"></script>
+</head>
+<body>
+<h2>Regresión Lineal</h2>
+<!-- Tabla de datos fuente -->
+<div style="width:75%; margin: 0 auto; margin-bottom: 2em;">
+    <h3>Datos obtenidos en: <a href="https://www.ine.gob.gt/proyecciones/" target="_blank">INE Guatemala</a></h3>
+    <table border="1" cellspacing="0" cellpadding="8" style="width:100%; border-collapse: collapse; text-align: center;">
+        <thead style="background-color: #f2f2f2;">
+        <tr>
+            <th>Estimaciones a 10 años de población ambos sexos y edad</th>
+            <th>1950</th>
+            <th>1960</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr><td>0 a 4</td><td>573.095</td><td>748.216</td></tr>
+        <tr><td>5 a 9</td><td>451.741</td><td>604.957</td></tr>
+        <tr><td>10 a 14</td><td>382.986</td><td>502.713</td></tr>
+        <tr><td>15 a 19</td><td>326.286</td><td>427.430</td></tr>
+        <tr><td>20 a 24</td><td>276.099</td><td>361.308</td></tr>
+        <tr><td>25 a 29</td><td>231.832</td><td>302.906</td></tr>
+        <tr><td>30 a 34</td><td>193.406</td><td>253.038</td></tr>   
+        <tr><td>35 a 39</td><td>160.374</td><td>210.518</td></tr>              
+        </tbody>
+    </table>
+</div>
+<div id="log"></div>
+<div id="chart_div" style="width:75%; margin: 0 auto;"></div>
+<!-- controller -->
+<script type="text/javascript" src="regresion.js"></script>
+</body>
+</html>

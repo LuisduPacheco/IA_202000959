@@ -1,0 +1,51 @@
+Puede tener 8 estados
+Inicia en A, A sucio B sucio
+Inicia en A, A limpio B sucio
+Inicia en A, A sucio B limpio
+Inicia en A, A limpio B limpio
+
+Inicia en B, A sucio B sucio 
+Inicia en B, A limpio B sucio 
+Inicia en B, A sucio B limpio 
+Inicia en B, A limpio B limpio 
+
+limpio
+
+Simple reflex agent: Vacuum Cleaner
+
+Simple reflex agent: Vacuum Cleaner
+
+
+
+Location: A | Action: RIGHT | states: CLEAN, CLEAN
+Location: B | Action: LEFT | states: CLEAN, CLEAN
+Location: A | Action: CLEAN | states: DIRTY, CLEAN
+Location: A | Action: RIGHT | states: CLEAN, CLEAN
+Location: B | Action: LEFT | states: DIRTY, CLEAN
+Location: A | Action: CLEAN | states: DIRTY, CLEAN
+Location: A | Action: CLEAN | states: DIRTY, CLEAN
+Location: A | Action: RIGHT | states: CLEAN, DIRTY
+Location: A | Action: CLEAN | states: DIRTY, CLEAN
+Location: B | Action: CLEAN | states: DIRTY, DIRTY
+Location: A | Action: RIGHT | states: CLEAN, CLEAN
+Location: B | Action: LEFT | states: DIRTY, CLEAN
+Location: B | Action: CLEAN | states: CLEAN, DIRTY
+Location: A | Action: CLEAN | states: DIRTY, CLEAN
+Location: B | Action: LEFT | states: CLEAN, CLEAN
+Location: A | Action: CLEAN | states: DIRTY, CLEAN
+Location: A | Action: RIGHT | states: CLEAN, CLEAN
+Location: A | Action: CLEAN | states: DIRTY, DIRTY
+Location: A | Action: RIGHT | states: CLEAN, DIRTY
+Location: B | Action: CLEAN | states: CLEAN, DIRTY
+Location: B | Action: CLEAN | states: DIRTY, DIRTY
+Location: B | Action: CLEAN | states: CLEAN, DIRTY
+Location: B | Action: LEFT | states: DIRTY, CLEAN
+Location: B | Action: LEFT | states: CLEAN, CLEAN
+Location: A | Action: CLEAN | states: DIRTY, DIRTY
+Location: A | Action: RIGHT | states: CLEAN, DIRTY
+Location: B | Action: CLEAN | states: DIRTY, DIRTY
+Location: B | Action: LEFT | states: DIRTY, CLEAN
+Location: A | Action: CLEAN | states: DIRTY, DIRTY
+Location: A | Action: RIGHT | states: CLEAN, DIRTY
+Location: B | Action: CLEAN | states: CLEAN, DIRTY
+Location: B | Action: LEFT | states: CLEAN, CLEAN

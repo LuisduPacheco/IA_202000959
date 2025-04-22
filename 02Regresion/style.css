@@ -1,0 +1,50 @@
+#log {
+    width: 75%;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+    color: #4e34fe;
+}
+
+table {
+    border-collapse: collapse;
+    width: 75%;
+    margin: 0 auto;
+    background-color: #fdf6f0;
+}
+
+td, th {
+    border: none;
+    padding: 6px 10px;
+}
+
+th, thead {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: left;
+    background-color: #907fa1;
+    color: #fdf6f0;
+    font-weight: normal;
+}
+
+tr:nth-child(even) {
+    background-color: #f5ede6;
+}
+
+tbody tr:hover {
+    background-color: #e0d6cf;
+}
+
+tr {
+    text-align: center;
+}
+
+.node {
+    display: inline-block;
+    padding: 8px 14px;
+    margin: 10px;
+    background-color: #f7f2ed;
+    border: 1px solid #e0d6cf;
+    border-radius: 8px;
+    color: #5d4037;
+    font-size: 14px;
+}
